@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP PRO TV</title>
+    <!-- Link to an external CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- App Header -->
+        <div class="app-header">
+            <img src="image/icon.jpeg" class="app-icon" alt="App Icon">
+            <div class="app-info">
+                <h1 class="app-title">APP PRO TV</h1>
+                <div class="app-developer">Plus Tech</div>
+                <div class="app-rating">
+                    <span class="rating-stars">★★★★☆</span>
+                    <span>1.2M reviews</span>
+                    <span>10M+ downloads</span>
+                    <span>Rated for 3+</span>
+                </div>
+                <a href="app-pro-tv.apk" class="install-button">Download</a>
+            </div>
+        </div>
+
+        <!-- Screenshots -->
+        <div class="screenshots">
+            <h2>Screenshots</h2>
+            <div class="screenshot-container">
+                <img src="image/1.jpeg" class="screenshot" alt="Screenshot">
+                <img src="image/2.jpeg" class="screenshot" alt="Screenshot">
+                <img src="image/3.jpeg" class="screenshot" alt="Screenshot">
+                <img src="image/4.jpeg" class="screenshot" alt="Screenshot">
+            </div>
+        </div>
+
+        <!-- Description -->
+        <div class="description">
+            <h2>About this app</h2>
+            <p class="description-text">
+                APP PRO TV is an app to watch all sports, news and entertainment channels through your mobile phone. Enjoy our app and share it with your relatives, friends and family.
+                <span class="read-more">Read more</span>
+            </p>
+        </div>
+
+        <!-- Additional Info -->
+        <div class="additional-info">
+            <div class="info-box">
+                <div class="info-title">Updated</div>
+                <div>February 16, 2025</div>
+            </div>
+            <div class="info-box">
+                <div class="info-title">Size</div>
+                <div>12.30 MB</div>
+            </div>
+            <div class="info-box">
+                <div class="info-title">Current Version</div>
+                <div>3.0</div>
+            </div>
+            <div class="info-box">
+                <div class="info-title">Downloads</div>
+                <div>10,000,000+</div>
+            </div>
+        </div>
+        <script>
+        // Simple "Read More" functionality
+        document.querySelector('.read-more').addEventListener('click', function() {
+            this.parentElement.style.maxHeight = 'none';
+            this.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
